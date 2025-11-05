@@ -40,7 +40,6 @@ jobs:
         run: |
           set -x 
           deck file openapi2kong -s $SPECFILE -o ./kong.yaml --verbose 9
-          deck file add-plugins -s ./kong.yaml -o ./kong.yaml kong-plugins/*
           deck file add-tags -s ./kong.yaml -o ./kong.yaml $TAG
           cat kong.yaml
 
