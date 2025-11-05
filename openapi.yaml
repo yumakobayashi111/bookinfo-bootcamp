@@ -1,4 +1,4 @@
-openapi: 3.0.4
+openapi: 3.0.5
 info:
   description: This is the API of the Istio BookInfo sample application.
   version: 1.0.0
